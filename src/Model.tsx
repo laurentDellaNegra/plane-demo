@@ -2,7 +2,7 @@
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props: any) {
-    const { nodes, materials }: any = useGLTF('/a380.glb')
+    const { nodes, materials }: any = useGLTF('a380.glb')
     return (
         <group {...props} dispose={null} scale={[0.001, 0.001, 0.001]}>
             <group rotation={[-Math.PI / 2, 0, 0]}>
