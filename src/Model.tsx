@@ -261,4 +261,4 @@ export function Model(props: any) {
     )
 }
 
-useGLTF.preload('/a380.glb')
+useGLTF.preload('./a380.glb')
